@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "756094655835",
+    "project_id": "newsinternapp",
+    "storage_bucket": "newsinternapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756094655835:android:4dbd59925e2be78d950e7e",
+        "android_client_info": {
+          "package_name": "com.company.newsinternapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756094655835-p39nesqqcsg3o37toihmiroaeib9doqb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZBO4feeB31X3ZsUFkEuAzvidRUaPZHoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756094655835-p39nesqqcsg3o37toihmiroaeib9doqb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

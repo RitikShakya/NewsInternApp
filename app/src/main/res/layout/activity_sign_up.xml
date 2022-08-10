@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".views.LoginPage">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/cardview_dark_background" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:background="@drawable/lowercard">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="S I G N U P"
+            android:textAlignment="gravity"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/loginbtntop"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="211dp"
+            android:layout_marginBottom="-3dp"
+            android:background="@drawable/lowercard"
+            android:text="L O G I N" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="464dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="71dp"
+        android:background="@drawable/card1">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+
+            android:paddingTop="10dp"
+            android:text="Create an Account"
+
+            android:textColor="@color/red"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="67dp"
+            android:layout_marginBottom="360dp"
+
+
+            android:text="Name "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="271dp"
+            android:layout_height="40dp"
+
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="67dp"
+            android:layout_marginTop="108dp"
+            android:drawableRight="@drawable/ic_baseline_person_24"
+            android:drawablePadding="5dp"
+            android:drawableTint="@color/red"
+            android:hint="Name"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="67dp"
+            android:layout_marginBottom="279dp"
+
+
+            android:text="Email "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/emailsignup"
+            android:layout_width="271dp"
+            android:layout_height="40dp"
+
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="67dp"
+            android:layout_marginTop="190dp"
+            android:drawableRight="@drawable/ic_baseline_email_24"
+            android:drawablePadding="5dp"
+            android:drawableTint="@color/red"
+            android:hint="Email or Phone"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="69dp"
+            android:layout_marginBottom="199dp"
+
+
+            android:text="Contact no "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="99dp"
+            android:layout_marginBottom="157dp"
+
+
+            android:text="IN +91 -"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="65dp"
+            android:layout_marginBottom="157dp"
+            android:background="@drawable/india" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="68dp"
+            android:layout_marginBottom="121dp"
+
+
+            android:text="Password "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/contactNum"
+
+
+            android:layout_width="171dp"
+
+
+            android:layout_height="44dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="166dp"
+            android:layout_marginTop="272dp"
+
+
+            android:drawableRight="@drawable/ic_baseline_call_24"
+            android:drawablePadding="5dp"
+            android:drawableTint="@color/red"
+            android:hint="Conctact"
+            android:inputType="number"
+
+
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/passwordsignup"
+
+
+            android:layout_width="271dp"
+
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="349dp"
+
+
+            android:drawableRight="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="5dp"
+            android:drawableTint="@color/red"
+            android:hint="Password"
+            android:inputType="textPassword"
+
+
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="168dp"
+            android:layout_marginBottom="52dp"
+            android:text="Already have an Account ?"
+            android:textColor="@color/black"
+            android:textSize="11dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/signinbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="111dp"
+            android:layout_marginBottom="49dp"
+            android:padding="2dp"
+            android:text="Sign In! "
+            android:textColor="@color/red"
+            android:textSize="13dp" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/uppercard">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/registerbtn"
+            android:background="@drawable/uppercard"
+            android:text="R E G I S T E R "
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            />
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
