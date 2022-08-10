@@ -1,6 +1,8 @@
 # NewsInternApp
 Intern App Login Page with News Api
 
+(Validations File also added in the project)
+
 Login Page
 ![image](https://user-images.githubusercontent.com/84911098/183862698-5cd130ba-ea05-4f23-9028-260e4c103ac7.png)
 
